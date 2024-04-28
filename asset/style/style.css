@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  width: 100%;
+  margin: auto;
+  border-radius: 4px;
+  font-size: 24px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+label {
+  width: 30%;
+  margin-right: 20px;
+}
+input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(77, 170, 106);
+}
+.form button {
+  background-color: rgb(43, 137, 226);
+  color: white;
+}
+
+#reg {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+}
+.modal {
+  border: 1px solid black;
+  padding: 20px;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.modal.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.874);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(104, 104, 104);
+  padding: 5px;
+  color: white;
+}
+
+.modal-body {
+  padding: 10px;
+  background-color: rgb(104, 104, 104);
+}
